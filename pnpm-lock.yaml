@@ -2,10 +2,12 @@ lockfileVersion: 5.4
 
 specifiers:
   nx: 15.7.1
+  prettier: ^2.8.4
   typescript: ^4.9.5
 
 devDependencies:
   nx: 15.7.1
+  prettier: 2.8.4
   typescript: 4.9.5
 
 packages:
@@ -707,6 +709,12 @@ packages:
   /picomatch/2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
+    dev: true
+
+  /prettier/2.8.4:
+    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
     dev: true
 
   /proxy-from-env/1.1.0:

@@ -1,0 +1,6 @@
+pnpm-lock.yaml
+
+/**/*.ts
+/**/*.html
+/**/*.scss
+/**/tailwind.config.js
