@@ -4,19 +4,29 @@ specifiers:
   '@nrwl/eslint-plugin-nx': 15.7.1
   '@nrwl/js': ^15.7.1
   '@nrwl/linter': 15.7.1
+  '@types/luxon': ^3.2.0
   '@types/node': ^18.13.0
   '@typescript-eslint/eslint-plugin': ^5.36.1
   '@typescript-eslint/parser': ^5.36.1
   eslint: ~8.15.0
   eslint-config-prettier: 8.1.0
+  luxon: ^3.2.1
+  nanoid: ^4.0.1
   nx: 15.7.1
   prettier: ^2.8.4
   typescript: ^4.9.5
+  zod: ^3.20.6
+
+dependencies:
+  luxon: 3.2.1
+  nanoid: 4.0.1
+  zod: 3.20.6
 
 devDependencies:
   '@nrwl/eslint-plugin-nx': 15.7.1_qrdkdp5wdns2iyhnzgfmjg4iqa
   '@nrwl/js': 15.7.1_x3bv4uegjdi6bfly4hu2a6iuz4
   '@nrwl/linter': 15.7.1_oku3obssxz5rsyfrd6fi2spony
+  '@types/luxon': 3.2.0
   '@types/node': 18.13.0
   '@typescript-eslint/eslint-plugin': 5.52.0_c6xr4wrffvlaokf5ayytbgq4k4
   '@typescript-eslint/parser': 5.52.0_hx5tgzcbd2ycqgjduqhliuc3jm
@@ -1610,6 +1620,10 @@ packages:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
     dev: true
 
+  /@types/luxon/3.2.0:
+    resolution: {integrity: sha512-lGmaGFoaXHuOLXFvuju2bfvZRqxAqkHPx9Y9IQdQABrinJJshJwfNCKV+u7rR3kJbiqfTF/NhOkcxxAFrObyaA==}
+    dev: true
+
   /@types/node/18.13.0:
     resolution: {integrity: sha512-gC3TazRzGoOnoKAhUx+Q0t8S9Tzs74z7m0ipwGpSqQrleP14hKxP4/JUeEQcD3W1/aIpnWl8pHowI7WokuZpXg==}
     dev: true
@@ -2771,6 +2785,11 @@ packages:
       yallist: 4.0.0
     dev: true
 
+  /luxon/3.2.1:
+    resolution: {integrity: sha512-QrwPArQCNLAKGO/C+ZIilgIuDnEnKx5QYODdDtbFaxzsbZcc/a7WFq7MhsVYgRlwawLtvOUESTlfJ+hc/USqPg==}
+    engines: {node: '>=12'}
+    dev: false
+
   /merge2/1.4.1:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
     engines: {node: '>= 8'}
@@ -2827,6 +2846,12 @@ packages:
   /ms/2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
     dev: true
+
+  /nanoid/4.0.1:
+    resolution: {integrity: sha512-udKGtCCUafD3nQtJg9wBhRP3KMbPglUsgV5JVsXhvyBs/oefqb4sqMEhKBBgqZncYowu58p1prsZQBYvAj/Gww==}
+    engines: {node: ^14 || ^16 || >=18}
+    hasBin: true
+    dev: false
 
   /natural-compare-lite/1.4.0:
     resolution: {integrity: sha512-Tj+HTDSJJKaZnfiuw+iaF9skdPpTo2GtEly5JHnWV/hfv2Qj/9RKsGISQtLh2ox3l5EAGw487hnBee0sIJ6v2g==}
@@ -3464,3 +3489,7 @@ packages:
       y18n: 5.0.8
       yargs-parser: 21.1.1
     dev: true
+
+  /zod/3.20.6:
+    resolution: {integrity: sha512-oyu0m54SGCtzh6EClBVqDDlAYRz4jrVtKwQ7ZnsEmMI9HnzuZFj8QFwAY1M5uniIYACdGvv0PBWPF2kO0aNofA==}
+    dev: false
