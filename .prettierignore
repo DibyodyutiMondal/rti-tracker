@@ -3,4 +3,5 @@ pnpm-lock.yaml
 /**/*.ts
 /**/*.html
 /**/*.scss
+/**/*.md
 /**/tailwind.config.js
